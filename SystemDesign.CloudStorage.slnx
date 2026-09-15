@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="SystemDesign.CloudStorage.Api/SystemDesign.CloudStorage.Api.csproj" />
+  <Project Path="SystemDesign.CloudStorage.Application/SystemDesign.CloudStorage.Application.csproj" />
+  <Project Path="SystemDesign.CloudStorage.Domain/SystemDesign.CloudStorage.Domain.csproj" />
+  <Project Path="SystemDesign.CloudStorage.Infrastructure/SystemDesign.CloudStorage.Infrastructure.csproj" />
+  <Project Path="SystemDesign.CloudStorage.Persistence/SystemDesign.CloudStorage.Persistence.csproj" />
+</Solution>

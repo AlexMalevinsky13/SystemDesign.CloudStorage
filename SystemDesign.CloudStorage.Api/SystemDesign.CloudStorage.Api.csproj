@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+	 <ItemGroup>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.0" />
+    </ItemGroup>
+
+	 <ItemGroup>
+	   <ProjectReference Include="..\SystemDesign.CloudStorage.Application\SystemDesign.CloudStorage.Application.csproj" />
+	   <ProjectReference Include="..\SystemDesign.CloudStorage.Infrastructure\SystemDesign.CloudStorage.Infrastructure.csproj" />
+	   <ProjectReference Include="..\SystemDesign.CloudStorage.Persistence\SystemDesign.CloudStorage.Persistence.csproj" />
+	 </ItemGroup>
+</Project>
