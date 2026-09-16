@@ -35,7 +35,6 @@ SystemDesign.CloudStorage.Application
 SystemDesign.CloudStorage.Domain
 SystemDesign.CloudStorage.Infrastructure
 SystemDesign.CloudStorage.Persistence
-SystemDesign.CloudStorage.Tests
 ```
 
 - `Api` — REST API, Swagger, HTTP Range and conditional request handling.
@@ -43,7 +42,6 @@ SystemDesign.CloudStorage.Tests
 - `Domain` — users, buckets, logical objects, versions, blobs, and multipart models.
 - `Infrastructure` — storage operations, JWT, filesystem access, concurrency control, quotas, and cleanup.
 - `Persistence` — Entity Framework Core, PostgreSQL mappings, and migrations.
-- `Tests` — unit and integration tests.
 
 ## Object Storage Model
 
@@ -336,7 +334,6 @@ SystemDesign.CloudStorage.Application
 SystemDesign.CloudStorage.Domain
 SystemDesign.CloudStorage.Infrastructure
 SystemDesign.CloudStorage.Persistence
-SystemDesign.CloudStorage.Tests
 ```
 
 - `Api` — REST API, Swagger, HTTP Range и conditional requests.
@@ -344,7 +341,6 @@ SystemDesign.CloudStorage.Tests
 - `Domain` — пользователи, buckets, логические объекты, версии, blobs и multipart-модели.
 - `Infrastructure` — операции хранилища, JWT, файловая система, concurrency control, quotas и cleanup.
 - `Persistence` — Entity Framework Core, mappings PostgreSQL и migrations.
-- `Tests` — unit и integration tests.
 
 ## Модель хранения объектов
 
